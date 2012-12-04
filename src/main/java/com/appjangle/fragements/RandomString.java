@@ -1,5 +1,6 @@
 package com.appjangle.fragements;
 
+// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/java-fragment-random-string -->
 import java.util.Random;
 
 /**
@@ -38,3 +39,4 @@ public class RandomString {
 	}
 
 }
+//<!-- one.end -->
