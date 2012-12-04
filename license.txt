@@ -1,3 +1,5 @@
+Any contribution under its original copyright, otherwise:
+
  Copyright [2012] [Max Erik Rohde]
 
    Licensed under the Apache License, Version 2.0 (the "License");
