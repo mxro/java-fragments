@@ -16,10 +16,12 @@ public class RandomString {
 	private static final char[] symbols = new char[36];
 
 	static {
-		for (int idx = 0; idx < 10; ++idx)
+		for (int idx = 0; idx < 10; ++idx) {
 			symbols[idx] = (char) ('0' + idx);
-		for (int idx = 10; idx < 36; ++idx)
+		}
+		for (int idx = 10; idx < 36; ++idx) {
 			symbols[idx] = (char) ('a' + idx - 10);
+		}
 	}
 
 	private final Random random = new Random();
@@ -39,4 +41,4 @@ public class RandomString {
 	}
 
 }
-//<!-- one.end -->
+// <!-- one.end -->
